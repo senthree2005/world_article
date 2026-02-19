@@ -13,21 +13,20 @@
 
 //=// --- Basic Configs --- //=// [1]
 
-let siteName = 'My Site!';
+let siteName = 'World Article!';
 let lang = 'en'; // The language of your site. Example, en = english, fr = français (french), etc.
 let siteUrl = ''; // You can just put the url of your site here, whether that be a subdomain or custom.
 
 // Put down your name and website/social media
 let author = {
-    name: 'Your Name',
+    name: 'UMTC-Robothon-Contestant',
     url: ''
 };
 
 // This is where you define the pages that'll be in your navigation bar throughout the site.
 let navi = [
     ['home','/index.html'],
-    ['about','/about.html'],
-    ['archive','/archive.html']
+    ['sdgs','/about.html']
 ];
 
 // The link that holds the archive list.

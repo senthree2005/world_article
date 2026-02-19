@@ -19,7 +19,7 @@ let siteUrl = ''; // You can just put the url of your site here, whether that be
 
 // Put down your name and website/social media
 let author = {
-    name: 'UMTC-Robothon-Contestant',
+    name: 'SenThree',
     url: ''
 };
 

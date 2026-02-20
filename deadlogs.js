@@ -25,8 +25,8 @@ let author = {
 
 // This is where you define the pages that'll be in your navigation bar throughout the site.
 let navi = [
-    ['home','/index.html'],
-    ['sdgs','/about.html']
+    ['HOME','/index.html'],
+    ['INFO','/about.html']
 ];
 
 // The link that holds the archive list.

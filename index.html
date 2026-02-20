@@ -11,7 +11,7 @@
         <div id="container">
             <header>
                 <nav id="nav"></nav>
-                <h1 id="blogTitle"></h1>
+                <h1 id="blogTitle" style="font-family:cursive; color:greenyellow;"></h1>
                 <hr>
             </header>
 
@@ -23,26 +23,67 @@
                 <p>Earth`s surface is composed of about 71% water and 29% land. The largest ocean, the Pacific Ocean, covers more area than all the landmasses combined. The planet features a wide range of geographical formations, from vast deserts and dense rainforests to towering mountain ranges like Mount Everest, the highest point above sea level.</p>
                 <br>
                 <br>
-                <p>There are seven continents:</p>
-                <ul>
-                    <li>Africa</li>
-                    <li>Antartica</li>
-                    <li>Asia</li>
-                    <li>Europe</li>
-                    <li>North America</li>
-                    <li>South America</li>
-                    <li>Australia</li>
+                <div style="border: 2px solid gainsboro; padding: 10px;">
+                <p>There are seven continents: (Click the continents to show images)</p>
+                <ul style ="list-style-type: none;">
+                    <li>
+                        <details>
+                            <summary>Africa</summary>
+                            <img src = "assets/images/continents/africa.webp">
+                        </details>
+                    
+                    </li>
+
+                    <li>
+                        <details>
+                            <summary>Antartica</summary>
+                            <img src = "assets/images/continents/antartica.webp" height="250" width="250">
+                        </details>
+                        
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Asia</summary>
+                            <img src = "assets/images/continents/asia.webp">
+                        </details>
+                    </li>
+                    <li><details>
+                        <summary>Europe</summary>
+                        <img src = "assets/images/continents/europe.webp">
+                    </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>North America</summary>
+                            <img src = "assets/images/continents/north_america.webp">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>South America</summary>
+                            <img src = "assets/images/continents/south_america.webp">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Australia</summary>
+                            <img src = "assets/images/continents/australia.gif">
+                        </details>
+                    </li>
                 </ul>
                 <p>Each continent has unique climates, wildlife, and cultural histories.</p>
+                </div>
                 <br>
 
                 <h3>Population and Cultures</h3>
+                <img src = "assets/images/population_graph.webp">
                 <p>The world`s population exceeds 8 billion people, representing thousands of ethnic groups and over 7,000 languages. Major religions—including Christianity, Islam, Hinduism, Buddhism, and others—play significant roles in shaping societies and traditions.</p>
                 <p>
                     Cultural expressions such as art, music, literature, and cuisine vary widely across regions, reflecting historical developments and environmental influences.
                 </p>
                 <br>
                 <h3>Political and Economic Systems</h3>
+                <img src = "assets/images/politics.webp" width="300" height="180">
                 <p>
                    The world is divided into nearly 200 independent countries, each with its own government and political system. International cooperation is often coordinated through organizations like the United Nations, which works to promote peace, security, and sustainable development. 
                 </p>
@@ -54,6 +95,7 @@
 
 
                 <h3>Environment and Sustainability</h3>
+                <img src="assets/images/environment.gif" width="400" height="300">
                 <p>Earth faces significant environmental challenges, including climate change, deforestation, pollution, and biodiversity loss. International efforts focus on sustainable development—balancing economic growth with environmental protection to ensure resources remain available for future generations.</p>
 
                 <p>Renewable energy sources such as solar, wind, and hydroelectric power are increasingly important in reducing reliance on fossil fuels.</p>
@@ -61,12 +103,342 @@
 
                 <h3>Conclusion</h3>
                 <p>The world is a dynamic and interconnected system of natural environments and human societies. Understanding its geography, cultures, and global challenges is essential for fostering cooperation and ensuring a sustainable future for all who call Earth home.</p>
+ 
+                <div id="continents">
+                    <h1 style="border: 5px dotted green; color: yellow; text-align: center; padding: 10px;">Continents</h1>
+                    <img src="assets/images/world_map.jpg" width="400" height="200" style="display: block; margin-left: auto; margin-right: auto;">
+
+                    <br>
+                    <div id="africa" style="border: 2px dashed gainsboro; padding: 10px;">
+                        <details>
+                                <summary style="font-size: 30px;">Africa</summary>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                            
+                                    <img class="africaSlides" src="assets/images/africa/img1.jpg" width="250">
+                                    <img class="africaSlides" src="assets/images/africa/img2.jpg" width="250" hidden>
+                                    <img class="africaSlides" src="assets/images/africa/img3.jpg" width="250" hidden>
+
+                                </div>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'africaSlides')" style="width: 30px; height: 30px;">&#10094;</button>
+                                <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'africaSlides')" style="width: 30px; height: 30px;">&#10095;</button>
+                            </div>
+                            <div>
+                                <h3>Overview: </h3>
+                                <p>Africa is the second-largest and second-most populous continent. It’s often called the “cradle of humanity,” as the earliest human fossils were found here.</p>
+                                <p>
+                                   <strong>Regions: </strong>North, West, East, Central, and Southern Africa.
+                                </p>
+                                <p>
+                                   <strong>Major countries: </strong>Nigeria, Egypt, Kenya, South Africa
+                                </p>
+                                <h4>People & Cultures:</h4>
+                                <ul>
+                                    <li>
+                                        Over 1.4 billion people
+                                    </li>
+                                    <li>
+                                        Thousands of ethnic groups and languages (e.g., Swahili, Hausa, Arabic, Zulu)
+                                    </li>
+                                    <li>
+                                        Rich traditions in music, storytelling, art, and community life
+                                    </li>
+                                    <li>
+                                        Religions: Christianity, Islam, and many traditional belief systems
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            </details>
+                        
+                        
+                    </div>
+                    <br>
+
+                    <div id="antartica" style="border: 2px dashed gainsboro; padding: 10px;">
+                        <details>
+                                <summary style="font-size: 30px;">Antartica</summary>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                            
+                                    <img class="antarticaSlides" src="assets/images/antartica/img1.jpg" width="250">
+                                    <img class="antarticaSlides" src="assets/images/antartica/img2.webp" width="250" hidden>
+                                    <img class="antarticaSlides" src="assets/images/antartica/img3.jpg" width="250" hidden>
+
+                                </div>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'antarticaSlides')" style="width: 30px; height: 30px;">&#10094;</button>
+                                <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'antarticaSlides')" style="width: 30px; height: 30px;">&#10095;</button>
+                            </div>
+                            <div>
+                                <h3>Overview: </h3>
+                                <p>The coldest and least populated continent.</p>
+                                
+                                <p>
+                                   <strong>Regions: </strong>East Asia, South Asia, Southeast Asia, Central Asia, West Asia (Middle East)
+                                </p>
+                                <p>
+                                   <strong>Major countries: </strong>China, India, Japan, Saudi Arabia
+                                </p>
+                               
+                                <h4>People:</h4>
+                                <ul>
+                                    <li>
+                                        About 4.7+ billion people
+                                    </li>
+                                    <li>
+                                        Birthplace of major religions: Hinduism, Buddhism, Islam
+                                    </li>
+                                    <li>
+                                        Huge diversity in language, food, traditions, and technology
+                                    </li>
+                                    <li>
+                                        From rural farming villages to ultra-modern megacities
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            </details>
+                        
+                        
+                    </div>
+
+                    <br>
+                    <div id="asia" style="border: 2px dashed gainsboro; padding: 10px;">
+                        <details>
+                                <summary style="font-size: 30px;">Asia</summary>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                            
+                                    <img class="asiaSlides" src="assets/images/asia/img1.webp" width="250">
+                                    <img class="asiaSlides" src="assets/images/asia/img2.jpg" width="250" hidden>
+                                    <img class="asiaSlides" src="assets/images/asia/img3.jpg" width="250" hidden>
+
+                                </div>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'asiaSlides')" style="width: 30px; height: 30px;">&#10094;</button>
+                                <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'asiaSlides')" style="width: 30px; height: 30px;">&#10095;</button>
+                            </div>
+                            <div>
+                                <h3>Overview: </h3>
+                                <p>Asia is the largest and most populous continent.</p>
+                            
+                               
+                                <h4>People:</h4>
+                                <ul>
+                                    <li>
+                                        No permanent residents
+                                    </li>
+                                    <li>
+                                        1,000-5,000 scientists and researchers seasonally
+                                    </li>
+                                    <li>
+                                        Governed by international agreements (Antarctic Treaty)
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            
+                            </details>
+                    </div>
+
+                    <br>
+                    <div id="europe" style="border: 2px dashed gainsboro; padding: 10px;">
+                        <details>
+                                <summary style="font-size: 30px;">Europe</summary>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                            
+                                    <img class="europeSlides" src="assets/images/europe/img1.webp" width="250">
+                                    <img class="europeSlides" src="assets/images/europe/img2.webp" width="250" hidden>
+                                    <img class="europeSlides" src="assets/images/europe/img3.jpg" width="250" hidden>
+
+                                </div>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'europeSlides')" style="width: 30px; height: 30px;">&#10094;</button>
+                                <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'europeSlides')" style="width: 30px; height: 30px;">&#10095;</button>
+                            </div>
+                            <div>
+                                <h3>Overview: </h3>
+                                <p>Europe is known for its historical influence on global politics, science, and art.</p>
+                                <p>
+                                   <strong>Major countries: </strong>Germany, France, United Kingdom, Italy
+                                </p>
+                               
+                                <h4>People:</h4>
+                                <ul>
+                                    <li>
+                                        About 450+ million people
+                                    </li>
+                                    <li>
+                                        Many languages (English, French, German, Spanish, etc.)
+                                    </li>
+                                    <li>
+                                        Strong traditions in literature, philosophy, architecture
+                                    </li>
+                                    <li>
+                                        Mostly urban population today
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            
+                            </details>
+                    </div>
+
+                    <br>
+                    <div id="north_america" style="border: 2px dashed gainsboro; padding: 10px;">
+                        <details>
+                                <summary style="font-size: 30px;">North America</summary>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                            
+                                    <img class="nAmericaSlides" src="assets/images/north_america/img1.jpg" width="250">
+                                    <img class="nAmericaSlides" src="assets/images/north_america/img2.jpg" width="250" hidden>
+                                    <img class="nAmericaSlides" src="assets/images/north_america/img3.jpg" width="250" hidden>
+
+                                </div>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'nAmericaSlides')" style="width: 30px; height: 30px;">&#10094;</button>
+                                <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'nAmericaSlides')" style="width: 30px; height: 30px;">&#10095;</button>
+                            </div>
+                            <div>
+                                <h3>Overview: </h3>
+                                <p>North America includes Canada, the United States, Mexico, and Central America (depending on definition).</p>
+                                <p>
+                                   <strong>Major countries: </strong>United States, Canada, Mexico
+                                </p>
+                               
+                                <h4>People:</h4>
+                                <ul>
+                                    <li>
+                                        About 600 million people
+                                    </li>
+                                    <li>
+                                        Highly diverse population (Indigenous peoples, immigrants from Europe, Africa, Asia, Latin America)
+                                    </li>
+                                    <li>
+                                        Strong influence in entertainment, technology, and global politics
+                                    </li>
+                                
+                                </ul>
+                            </div>
+                            
+                            </details>
+                    </div>
+
+                    <br>
+                    <div id="south_america" style="border: 2px dashed gainsboro; padding: 10px;">
+                        <details>
+                                <summary style="font-size: 30px;">South America</summary>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                            
+                                    <img class="sAmericaSlides" src="assets/images/south_america/img1.jpg" width="250">
+                                    <img class="sAmericaSlides" src="assets/images/south_america/img2.jpg" width="250" hidden>
+                                    <img class="sAmericaSlides" src="assets/images/south_america/img3.jpg" width="250" hidden>
+
+                                </div>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'sAmericaSlides')" style="width: 30px; height: 30px;">&#10094;</button>
+                                <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'sAmericaSlides')" style="width: 30px; height: 30px;">&#10095;</button>
+                            </div>
+                            <div>
+                                <h3>Overview: </h3>
+                                <p>Known for rainforests, mountains, and vibrant cultures.</p>
+                                <p>
+                                   <strong>Major countries: </strong>Brazil, Argentina, Colombia, Peru
+                                </p>
+                               
+                                <h4>People:</h4>
+                                <ul>
+                                    <li>
+                                        About 430+ million people
+                                    </li>
+                                    <li>
+                                        Spanish and Portuguese widely spoken
+                                    </li>
+                                    <li>
+                                        Mix of Indigenous, European, and African heritage
+                                    </li>
+                                    <li>
+                                        Famous for music, dance (samba, tango), and football
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            </details>
+                    </div>
+                    
+
+                    <br>
+                    <div id="australia" style="border: 2px dashed gainsboro; padding: 10px;">
+                        <details>
+                                <summary style="font-size: 30px;">Australia</summary>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                            
+                                    <img class="australiaSlides" src="assets/images/australia/img1.jpg" width="250">
+                                    <img class="australiaSlides" src="assets/images/australia/img2.webp" width="250" hidden>
+                                    <img class="australiaSlides" src="assets/images/australia/img3.jpg" width="250" hidden>
+
+                                </div>
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <button class="w3-button w3-display-left" onclick="plusDivs(-1, 'australiaSlides')" style="width: 30px; height: 30px;">&#10094;</button>
+                                <button class="w3-button w3-display-right" onclick="plusDivs(+1, 'australiaSlides')" style="width: 30px; height: 30px;">&#10095;</button>
+                            </div>
+                            <div>
+                                <h3>Overview: </h3>
+                                <p>Often called Oceania, this region includes Australia, New Zealand, and Pacific island nations.</p>
+                                <p>
+                                   <strong>Major countries: </strong>Australia, New Zealand, Fiji
+                                </p>
+                               
+                                <h4>People:</h4>
+                                <ul>
+                                    <li>
+                                        About 45 million people
+                                    </li>
+                                    <li>
+                                        Indigenous Australians and Māori of New Zealand
+                                    </li>
+                                    <li>
+                                        Mix of Indigenous, European, and African heritage
+                                    </li>
+                                    <li>
+                                        Many Pacific Islander cultures
+                                    </li>
+                                    <li>
+                                        Blend of Western and Indigenous traditions
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            </details>
+                    </div>
+                
+
+
+
+                
+
             </main>
-            <div id="recentPosts"></div>
+            <!-- <div id="recentPosts"></div> -->
             <hr id="seperator">
             <footer id="footer"></footer>
         </div>
         <!-- Let's link our javascript-->
+         <script>var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n, str) {
+  showDivs(slideIndex += n, str);
+}
+
+function showDivs(n, str) {
+  var i;
+  var x = document.getElementsByClassName(str);
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}</script>
         <script src="./deadlogs.js" charset="utf-8"></script>
         <script src="./scripts/posts.js" charset="utf-8"></script>
         <script src="./scripts/console.js" charset="utf-8"></script>
